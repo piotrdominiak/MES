@@ -9,17 +9,26 @@ namespace MES_1
         {
             int counter = 0;
             string line;
-
-            StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/plik.txt");
-            while((line = file.ReadLine()) != null)
+            try
             {
-                Console.WriteLine(line);
-                counter++;
-            }
+                //      StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/plik.txt");
+                StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
+                while ((line = file.ReadLine()) != null)
+                {
+                    Console.WriteLine(line);
+                    counter++;
+                }
 
-            file.Close();
-            Console.WriteLine("Lines total: {0}", counter);
-            Console.ReadLine();
+                file.Close();
+                Console.WriteLine("Lines total: {0}", counter);
+                Console.ReadLine();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("file not found!");
+                Console.WriteLine(e.Message);
+                Console.ReadLine();
+            }
         }
     }
 }
