@@ -7,20 +7,21 @@ namespace MES_1
     {
         public static void Main(string[] args)
         {
-            int counter = 0;
-            string line;
+            double S, K, Alpha, T_Alpha;
+
             try
             {
-                //      StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/plik.txt");
-                StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
-                while ((line = file.ReadLine()) != null)
-                {
-                    Console.WriteLine(line);
-                    counter++;
-                }
-
+                StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/MES/plik.txt");
+                //   StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
+                S = double.Parse(file.ReadLine());        
+                K = double.Parse(file.ReadLine());
+                Alpha = double.Parse(file.ReadLine());
+                T_Alpha = double.Parse(file.ReadLine());
+                GlobalData global_Data = new GlobalData(S, K, Alpha, T_Alpha);
                 file.Close();
-                Console.WriteLine("Lines total: {0}", counter);
+
+                global_Data.Print_Data();
+            //    Console.WriteLine("Lines total: {0}", counter);
                 Console.ReadLine();
             }
             catch (Exception e)
@@ -29,6 +30,7 @@ namespace MES_1
                 Console.WriteLine(e.Message);
                 Console.ReadLine();
             }
+
         }
     }
 }
