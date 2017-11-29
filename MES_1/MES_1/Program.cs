@@ -7,18 +7,22 @@ namespace MES_1
     {
         public static void Main(string[] args)
         {
-            double S, K, Alpha, T_Alpha;
+            double s, k, alpha, t_alpha;
+            int mh; 
 
             try
             {
                 StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/MES/plik.txt");
                 //   StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
-                S = double.Parse(file.ReadLine());        
-                K = double.Parse(file.ReadLine());
-                Alpha = double.Parse(file.ReadLine());
-                T_Alpha = double.Parse(file.ReadLine());
-                GlobalData global_Data = new GlobalData(S, K, Alpha, T_Alpha);
+                mh = int.Parse(file.ReadLine());
+                s = double.Parse(file.ReadLine());        
+                k = double.Parse(file.ReadLine());
+                alpha = double.Parse(file.ReadLine());
+                t_alpha = double.Parse(file.ReadLine());
+                GlobalData global_Data = new GlobalData(mh,s, k, alpha, t_alpha);
                 file.Close();
+
+
 
                 global_Data.Print_Data();
             //    Console.WriteLine("Lines total: {0}", counter);
