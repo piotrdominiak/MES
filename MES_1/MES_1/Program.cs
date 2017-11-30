@@ -12,8 +12,8 @@ namespace MES_1
 
             try
             {
-                StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/MES/plik.txt");
-                //   StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
+                // StreamReader file = new StreamReader(@"/Users/piotrdominiak/Desktop/MES/MES/plik.txt");
+                StreamReader file = new StreamReader(@"I:/git/MES/plik.txt");
                 mh = int.Parse(file.ReadLine());
                 s = double.Parse(file.ReadLine());        
                 k = double.Parse(file.ReadLine());
