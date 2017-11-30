@@ -3,11 +3,12 @@ namespace MES_1
 {
     public class Node
     {
-        int x, status = 0;
+        public int status,x = 0;
+        public double[] arr;
 
-        public Node()
+        public Node(double[] arr1)
         {
-            
+            this.arr = arr1;
         }
     }
 }

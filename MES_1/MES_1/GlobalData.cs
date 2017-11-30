@@ -3,8 +3,8 @@ namespace MES_1
 {
     public class GlobalData
     {
-        double s, k, alpha, t_alpha, q = 0;
-        int mh, me;
+        public double s, k, alpha, t_alpha, q = 0;
+        public int mh, me;
                 
         public GlobalData(int mh, double s1, double k1, double a1, double tal)
         {
@@ -15,7 +15,7 @@ namespace MES_1
             this.alpha = a1;
             this.t_alpha = tal;
         }
-
+        
         public void Gen_Grid()
         {
             

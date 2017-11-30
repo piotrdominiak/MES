@@ -3,7 +3,7 @@ namespace MES_1
 {
     public class Element
     {
-        double S, K = 0;
+        double s,k,c = 0;
 
         public int[] ID = new int[2];
         public int[,] LH = new int[2,2];
