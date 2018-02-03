@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{5554DC81-3838-4B07-9EF1-218F23C06066}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MES_1/GlobalData.cs">
+    <Files>
+      <File FileName="MES_1/Grid.cs" Line="62" Column="9" />
+      <File FileName="MES_1/Program.cs" Line="67" Column="13" />
+      <File FileName="MES_1/SOE.cs" Line="82" Column="14" />
+      <File FileName="MES_1/Node.cs" Line="6" Column="25" />
+      <File FileName="MES_1/Element.cs" Line="8" Column="28" />
+      <File FileName="MES_1/GlobalData.cs" Line="9" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MES__1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

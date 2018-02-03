@@ -1,0 +1,5 @@
+/Users/piotrdominiak/Desktop/MES/MES_1/MES_1/bin/Debug/MES_1.exe
+/Users/piotrdominiak/Desktop/MES/MES_1/MES_1/bin/Debug/MES_1.pdb
+/Users/piotrdominiak/Desktop/MES/MES_1/MES_1/obj/x86/Debug/MES_1.csproj.CoreCompileInputs.cache
+/Users/piotrdominiak/Desktop/MES/MES_1/MES_1/obj/x86/Debug/MES_1.exe
+/Users/piotrdominiak/Desktop/MES/MES_1/MES_1/obj/x86/Debug/MES_1.pdb
